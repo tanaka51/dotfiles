@@ -1,0 +1,28 @@
+[user]
+	name = Koichi Tanaka
+	email = tanaka51.jp@gmail.com
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
+[init]
+	# templatedir = /Users/tanaka51/.git_templates
+[ghq]
+	root = /home/tanaka51/src
+[alias]
+  pr = pull --rebase
+  b = branch
+  co = checkout
+  cb = checkout -b
+  d = diff
+  st = status
+  a = add
+  c = commit -v
+  ca = commit -v --amend
+  dc = diff --cached
+  cm = commit -m
+  g = grep
+  tr = log --decorate --oneline --graph
+  ta = log --decorate --oneline --graph --all
+  taa = log --graph --date=short --pretty=format:'%C(yellow)%h%Creset %Cgreen%d%Creset %C(blue)%an%Creset %cd %s'
+[github]
+	user = tanaka51
